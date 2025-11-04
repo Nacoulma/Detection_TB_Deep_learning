@@ -1,0 +1,28 @@
+# 📂 Jeu de Données – Détection de la Tuberculose à partir de Radiographies Thoraciques
+
+Ce dossier est destiné à contenir les données utilisées pour l'entraînement et la validation du modèle **VGG16** appliqué à la détection automatique de la tuberculose pulmonaire à partir d’images de radiographies thoraciques.
+
+---
+
+## 🧠 Description du Dataset
+
+Le jeu de données utilisé provient de plusieurs sources publiques, notamment les ensembles **Montgomery County** et **Shenzhen**, largement utilisés dans la recherche en détection de la tuberculose par apprentissage profond.
+
+Le dataset est organisé en deux catégories principales :
+- **TB (Tuberculosis)** : images présentant des signes radiographiques de tuberculose.
+- **Normal** : images de radiographies pulmonaires normales.
+
+Chaque image a été redimensionnée à **224 × 224 pixels**, conformément aux exigences d'entrée des (3) modèles .
+
+---
+
+## 📥 Téléchargement du Dataset
+
+Les données complètes ne sont pas directement incluses dans ce dépôt GitHub en raison de leur taille.
+
+Vous pouvez télécharger le dataset via le lien Google Drive ci-dessous 👇 :
+
+👉 [**Télécharger le dataset (Google Drive)**](https://drive.google.com/drive/folders/1nPPuokBfUc3nZVdRysr5KU_BzMX9dLI8?usp=drive_link)
+
+Une fois le téléchargement terminé, placez le dossier dans le répertoire racine du projet sous la structure suivante :
+
