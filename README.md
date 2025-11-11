@@ -1,6 +1,8 @@
 # Approche Deep Learning pour le diagnostic de la tuberculose à partir d’images radiographiques thoraciques.
 
-<p>   La tuberculose pulmonaire (TBP) est une maladie infectieuse grave provoquée par la bactérie Mycobacterium tuberculosis. Selon l'Organisation Mondiale de la Santé (OMS), la tuberculose fait partie des dix principales causes de mortalité dans le monde. En 2020, on estime à 10 millions le nombre de nouveaux cas de tuberculose et à 1,5 million le nombre de décès liés à cette maladie. The major symptoms of tuberculosis are the cough that lasts more than three weeks, loss of appetite and unintentional weight loss, fever, chills, and night sweats. Most people die because of tuberculous mainly die because of the negligence of symptoms or not getting proper health treatment at the proper time. To fight against this problem and to save countless life I have created this convolutional neural network-based deep learning model.
+<p>   La tuberculose pulmonaire (TBP) est une maladie infectieuse grave provoquée par la bactérie Mycobacterium tuberculosis. Selon l'Organisation Mondiale de la Santé (OMS), la tuberculose fait partie des dix principales causes de mortalité dans le monde. En 2020, on estime à 10 millions le nombre de nouveaux cas de tuberculose et à 1,5 million le nombre de décès liés à cette maladie. Les principaux symptômes de la tuberculose sont une toux qui dure plus de trois semaines, une perte d'appétit et une perte de poids involontaire, de la fièvre, des frissons et des sueurs nocturnes. La plupart des personnes qui meurent de la tuberculose décèdent principalement parce qu'elles ont négligé les symptômes ou n'ont pas reçu de traitement médical approprié au moment opportun. Pour lutter contre ce problème et sauver d'innombrables vies, j'ai créé ce modèle d'apprentissage profond basé sur un réseau neuronal convolutif.
+
+Traduit avec DeepL.com (version gratuite)
   
 Ce projet a pour objectif de détecter automatiquement la tuberculose pulmonaire à partir d’images radiographiques thoraciques (rayons X), en utilisant l’apprentissage profond et plus précisément avec les modèles pré-entraînés VGG16, MobileNet-V2 et DenseNet121.  
 
@@ -98,13 +100,4 @@ Une fois le téléchargement terminé, placez le dossier dans le répertoire rac
 
 **Thierry Nacoulma**
 
-</p>  
-<h2>Model Details</h2>
-<p> For the identification of tuberculosis, the model at its core uses convolutional and fully connected layers. The model consists of four convolutional layers for feature extraction from the chest x-ray, each followed by a max-pooling layer.  After the four convolutional and max-pooling layers, the model uses three dense layers for the classification task.</p>
-<h2>Model Training</h2>
-<p>The model was trained for 20 epochs with batch size equals 19. During the training process parse, the binary cross-entropy loss function was used along with the Adam optimizer. The dataset on which the model has trained has been downloaded from Kaggle.com (https://bit.ly/3vw3FJQ). </p>
-<h2>Model Evaluation</h2>
-<img src="https://github.com/NavinBondade/Tuberculosis_Detection_with_90_percent_accuracy/blob/main/Tuberculosis%20Detection%20with%2090%25%20accuracy/Graps%20and%20Images/loss.png" width="450" height="300">
-<p>After training process the model has shown loss: 0.1270 and accuracy: 0.9445 for training data and loss: 0.4219 and accuracy: 0.8955 for validation data (this clearly shows that model trained perfectly without overfitting or underfitting)</p>
-<h2>Conclusion</h2>
-<p>In this project, I have created a convolution deep neural network architecture that correctly identifies tuberculosis infected chest x-ray with an impressive accuracy of 90 percent.</p>
+
